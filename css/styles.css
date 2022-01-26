@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.menu,
+.footer {
+  height: 100px;
+}
+
+.menu,
+.sidebar,
+.content,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  gap: 10px;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.content {
+  width: 100%;
+}
